@@ -1,28 +1,22 @@
-# ── Custom ignore patterns for unwanted files ──
-webpack.config.js
-yarn.lock
-specifications/*.gemspec
-*.lock
-
-# ── Re-include specific assets ──
-!tichu/public/graphics/*.png
-!tichu/public/graphics/*.jpg
-!tichu/public/tichu.css
-
-# ── Existing project-specific rules ──
 extensions
 .DS_Store
 Gemfile.lock
 passenger.3000.pid
 passenger.3000.pid.lock
 dist1
-.github
 gems
 
+extensions/arm64-darwin-23
+
+
+
 node_modules
-tichu/tichu.log
-tichu/.byebug_history
-tichu/public/dist
+#tichu/tichu.log
+#tichu/.byebug_history
+#tichu/public/graphics/*
+!tichu/public/graphics/*.jpg
+!tichu/public/graphics/*.png
+
 .idea
 .yarn
 schema.txt
@@ -63,3 +57,5 @@ build-iPhoneSimulator/
 /vendor/bundle
 /lib/bundler/man/
 
+#!tichu/public/graphics/*.png
+#!tichu/public/graphics/*.jpg
