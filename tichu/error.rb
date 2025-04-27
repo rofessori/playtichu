@@ -1,2 +1,0 @@
-class TichuError < RuntimeError
-end
