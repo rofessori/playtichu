@@ -1,3 +1,5 @@
+.gitignorebu
+
 # ── Custom ignore patterns for unwanted files ──
 webpack.config.js
 yarn.lock
