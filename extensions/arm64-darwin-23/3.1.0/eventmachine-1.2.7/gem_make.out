@@ -1,0 +1,19 @@
+current directory: /Users/bones/tichugg/play.tichu/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/bones/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/bones/tichugg/play.tichu/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-3qzug7 sitelibdir\=./.gem.20240811-3050-3qzug7 clean
+
+current directory: /Users/bones/tichugg/play.tichu/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-3qzug7 sitelibdir\=./.gem.20240811-3050-3qzug7
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/bones/tichugg/play.tichu/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-3qzug7 sitelibdir\=./.gem.20240811-3050-3qzug7 install
+/opt/homebrew/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20240811-3050-3qzug7
+
+current directory: /Users/bones/tichugg/play.tichu/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-3qzug7 sitelibdir\=./.gem.20240811-3050-3qzug7 clean

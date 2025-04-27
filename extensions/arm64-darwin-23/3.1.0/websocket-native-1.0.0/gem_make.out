@@ -1,0 +1,25 @@
+current directory: /Users/bones/tichugg/play.tichu/gems/websocket-native-1.0.0/ext/websocket_native_ext
+/Users/bones/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/bones/tichugg/play.tichu/gems/websocket-native-1.0.0/ext/websocket_native_ext
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-pbl7fo sitelibdir\=./.gem.20240811-3050-pbl7fo clean
+
+current directory: /Users/bones/tichugg/play.tichu/gems/websocket-native-1.0.0/ext/websocket_native_ext
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-pbl7fo sitelibdir\=./.gem.20240811-3050-pbl7fo
+compiling websocket_native_ext.c
+websocket_native_ext.c:18:11: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  int n = RARRAY_LEN(payload), i, p, m;
+      ~   ^~~~~~~~~~~~~~~~~~~
+/Users/bones/.rbenv/versions/3.1.2/include/ruby-3.1.0/ruby/internal/core/rarray.h:68:36: note: expanded from macro 'RARRAY_LEN'
+#define RARRAY_LEN                 rb_array_len                 /**< @alias{rb_array_len} */
+                                   ^
+1 warning generated.
+linking shared-object websocket_native_ext.bundle
+
+current directory: /Users/bones/tichugg/play.tichu/gems/websocket-native-1.0.0/ext/websocket_native_ext
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-pbl7fo sitelibdir\=./.gem.20240811-3050-pbl7fo install
+/opt/homebrew/bin/ginstall -c -m 0755 websocket_native_ext.bundle ./.gem.20240811-3050-pbl7fo
+
+current directory: /Users/bones/tichugg/play.tichu/gems/websocket-native-1.0.0/ext/websocket_native_ext
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-pbl7fo sitelibdir\=./.gem.20240811-3050-pbl7fo clean

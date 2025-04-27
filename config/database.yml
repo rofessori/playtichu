@@ -1,0 +1,23 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  timeout: 5000
+
+development:
+  <<: *default
+  database: tichu_development
+  username: igor
+  password: kerhhhhho
+
+test:
+  <<: *default
+  database: tichu_test
+  username: igor
+  password: kerhhhhho
+
+production:
+  <<: *default
+  database: tichu_db
+  username: igor
+  password: kerhhhhho

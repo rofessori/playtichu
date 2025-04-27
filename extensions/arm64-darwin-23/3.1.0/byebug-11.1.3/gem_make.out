@@ -1,0 +1,22 @@
+current directory: /Users/bones/tichugg/play.tichu/gems/byebug-11.1.3/ext/byebug
+/Users/bones/.rbenv/versions/3.1.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/bones/tichugg/play.tichu/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-qyxasj sitelibdir\=./.gem.20240811-3050-qyxasj clean
+
+current directory: /Users/bones/tichugg/play.tichu/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-qyxasj sitelibdir\=./.gem.20240811-3050-qyxasj
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/bones/tichugg/play.tichu/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-qyxasj sitelibdir\=./.gem.20240811-3050-qyxasj install
+/opt/homebrew/bin/ginstall -c -m 0755 byebug.bundle ./.gem.20240811-3050-qyxasj/byebug
+
+current directory: /Users/bones/tichugg/play.tichu/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= sitearchdir\=./.gem.20240811-3050-qyxasj sitelibdir\=./.gem.20240811-3050-qyxasj clean
