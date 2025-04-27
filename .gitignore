@@ -4,8 +4,10 @@ Gemfile.lock
 passenger.3000.pid
 passenger.3000.pid.lock
 dist1
-.github
 gems
+
+extensions/arm64-darwin-23
+
 
 node_modules
 tichu/tichu.log
